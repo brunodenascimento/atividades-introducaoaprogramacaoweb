@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+    font-family: synefigma;
+    src: url(../syne.regular.ttf);
+  }
+  @font-face {
+    font-family: questrialfigma;
+    src: url(../Questrial-Regular.ttf);
+  }
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.menuprincipal{
+    height: 60px;
+    width: 100%;
+    display: block;
+}
+.logo{
+    padding: 5px;
+    width: 70%;
+    float: left;
+}
+main{
+    margin: 0 auto;
+    width: 1500px;
+    position: relative;
+}
+.redessociais ul li{
+    margin-left: 15px;
+    color: #2A6051 ;
+    font-family: synefigma;
+    font-size: 13px;
+    display: inline-block;
+    height: 10%;
+    float: left;
+    list-style: none;
+}
+.redessociais{
+    float: right;
+    
+}
+.redessociais a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer{
+    margin-top: 500px;
+    display: block;
+    float: none;
+   display: block;
+}
+.conteudofooter{
+    display: block;
+    text-align: center;
+}
+.conteudonos ul li{
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    color: #2A6051;
+    display: block;
+    font-family: synefigma;
+    text-decoration: block;
+    margin: auto;
+}
+.bordaohistoria{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    height: 50%;
+    float: left;
+}
+.maissobre{
+    margin-right: 50px;
+    display: block;
+    font-size: 16px;
+    height: 50%;
+    float: right;
+}
+.imagemnos{
+    display: block;
+    bottom: auto;
+    top: auto;
+    margin: auto;
+}
