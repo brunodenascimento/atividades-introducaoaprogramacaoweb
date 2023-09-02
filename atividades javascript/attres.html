@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade tres de programação pra web</title>
+</head>
+<body>
+  <script>
+    let palavra = window.prompt("Escreva a palavra que você deseja checar: ");
+     var checagem = palavra.split("").reverse("").join("");
+     if (palavra === checagem) {
+       window.alert("A palavra "+ palavra+" é um palíndromo"); 
+     }else{
+       window.alert("A palavra "+palavra+" não é um palíndromo"); 
+     }
+   </script>
+</body>
+</html>
